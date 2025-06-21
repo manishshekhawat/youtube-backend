@@ -4,13 +4,16 @@
   "description": "a backend - youtube",
   "main": "index.js",
   "scripts": {
-    "start":"node src/index.js",
-    "dev":"nodemon src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "author": "Manish Shekhawat",
   "license": "ISC",
   "dependencies": {
     "express": "^5.1.0",
     "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
   }
 }
